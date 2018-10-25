@@ -67,10 +67,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chao.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chao.aspx.cs">
+      <DependentUpon>Chao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Chao.aspx.designer.cs">
+      <DependentUpon>Chao.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
